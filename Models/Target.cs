@@ -15,7 +15,7 @@ namespace csharp_intro.Models
 
     public void Attack()
     {
-      Health -= 25;
+      Health -= 1;
       if (Health <= 0)
       {
         Alive = false;
